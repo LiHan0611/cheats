@@ -1,4 +1,4 @@
 % pip
 
 # 命令使用阿里云源
-pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/  
+pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/ && pip config set globab.trusted-host mirrors.aliyun.com
