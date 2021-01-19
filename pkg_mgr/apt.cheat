@@ -53,3 +53,6 @@ apt rdepends <package-name>
 
 # Remove un-needed packages and dependencies
 apt autoremove
+
+# 备份sources.list文件
+cp /etc/apt/sources.list /etc/apt/sources.list.backup
