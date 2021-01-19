@@ -59,5 +59,7 @@ apt autoremove
 # 备份sources.list文件
 cp /etc/apt/sources.list /etc/apt/sources.list.backup
 
-# 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释
+# ubuntu20.04清华源
 deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal main restricted universe multiverse && deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-updates main restricted universe multiverse && deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-backports main restricted universe multiverse && deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-security main restricted universe multiverse" 
+
+
